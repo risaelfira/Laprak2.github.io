@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LAPORAN TEORI</title>
+    <style>
+        h1, h2 {
+            text-align: center;
+        }
+        .content {
+            display: none; 
+            margin: 20px;
+        }
+    </style>
+    <link rel="stylesheet" href="style 1.css">
+</head>
+<body>
+    <h1>LAPORAN TEORI</h1>
+    <h2>Elfira Risa Hidayat | 202332017</h2>
+    
+    <div onclick="toggleContent('section1')">
+        <h3>1. Mengapa menggunakan CSS dan JavaScript dalam pemrograman web?</h3>
+    </div>
+    <div id="section1" class="content">
+        <p><a href="Soal 1.html"> CSS dan JavaScript digunakan untuk meningkatkan interaktivitas dan estetika dari website.</a></p>
+    </div>
+    
+    <div onclick="toggleContent('section2')">
+        <h3>2. Bagaimana CSS dan JavaScript dapat diintegrasikan dalam pemrograman web?</h3>
+    </div>
+    <div id="section2" class="content">
+        <p><a href="Soal 2.html">CSS dan JavaScript dapat diintegrasikan melalui tag <code>&lt;link&gt;</code> dan <code>&lt;script&gt;</code> di dalam HTML.</a></p>
+    </div>
+
+    <div onclick="toggleContent('section3')">
+        <h3>3. Jelaskan apa saja keuntungan menggunakan JavaScipt dan CSS?</h3>
+    </div>
+    <div id="section3" class="content">
+        <p><a href="Soal 3.html">Keuntungan menggunakan JavaScript dan CSS meliputi kecepatan, fleksibilitas, dan kemudahan dalam mengubah tampilan web.</a></p>
+    </div>
+
+    <div onclick="toggleContent('section4')">
+        <h3>4. Jelaskan apa saja keuntungan menggunakan Bootstrap?</h3>
+    </div>
+    <div id="section4" class="content">
+        <p><a href="Soal 4.html">Bootstrap menyediakan kerangka kerja responsif yang memudahkan pengembangan UI.</a></p>
+    </div>
+
+    <div onclick="toggleContent('section5')">
+        <h3>5. Berikan salah satu contoh penggunaan Bootstrap lalu jelaskan fungsinya serta berikan screenshot hasil running di web-nya!</h3>
+    </div>
+    <div id="section5" class="content">
+        <p><a href="Soal 5.html">Contoh penggunaan Bootstrap adalah penggunaan navbar, yang memudahkan navigasi pengguna.</a></p>
+    </div>
+
+    <script>
+        function toggleContent(sectionId) {
+            const content = document.getElementById(sectionId);
+            const isVisible = content.style.display === "block";
+
+            if (confirm("Apakah Anda ingin menyembunyikan isi dari bagian tersebut?")) {
+                content.style.display = isVisible ? "none" : "block";
+            }
+        }
+    </script>
+</body>
+</html>

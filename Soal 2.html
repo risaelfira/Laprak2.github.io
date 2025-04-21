@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Soal 2</title>
+    <style>
+        h3 {
+            text-align: center;
+            font-size: 20pt;
+        }
+        
+    </style>
+    <link rel="stylesheet" href="Style 3.css">
+</head>
+<body>
+    <h3><b>Bagaimana CSS Dan JavaScript Dapat Diintegrasikan Dalam Pemrograman Web?</b></h3>
+    <h4>Mengintegrasi CSS :</h4>
+    <ul>
+        <li><b>CSS Inline</b><p>
+            Gaya diterapkan langsung ke dalam elemen HTML individual menggunakan atribut style. Metode ini digunakan guna menerapkan gaya unik ke elemen tertentu. Namun, tidak disarankan untuk menata sebagian besar situs web karena masalah pemeliharaan. 
+            <p>Contoh :</p> 
+            <p><img src="Screenshot 2025-04-21 185500.png" alt="Gambar 1"></p>
+        </p></li>
+        <li><b>CSS Internal</b> <p>
+            Metode ini diterapkan dengan menyematkannya di dalam tag &lt;style&gt; di bagian &lt;head&gt; dokumen HTML. Metode ini cocok digunakan saat menata suatu halaman karena gaya tidak dapat digunakan kembali di seluruh halaman.
+            <p>Contoh :</p>
+                <p><img src="Screenshot 2025-04-20 194333.png" alt="Gambar 2"></p>
+        </p></li>
+        <li><b>CSS Eksternal</b><p>
+            Metode ini mwnghubungkan file .css terpisah menggunakan tag &lt;link&gt; di bagian &lt;head&gt; dokumen HTML. Metode ini yang paling umum digunakan dan direkomendasikan untuk menata situs web, terutama yang lebih besar. Metode ini memungkinkan gaya yang konsisten di seluruh halaman dan pemeliharaan yang lebih mudah. File CSS eksternal dapat di-cache oleh browser, meingkatkan waktu pembuatan halaman. Sintaks dari tag &lt;link&gt; meliputi atribut rel yang diatur ke “stylesheet” dan atribut href yang menunjuk ke jalus CSS.
+        </p></li>
+    </ul>
+    <h4>Mengintegrasikan JavaScript :</h4>
+    <ul>
+        <li><b>JavaScript Internal</b><p>
+            Kode JavaScript disematkan langsung di dalam tag &lt;script&gt; dalam dokumen HTML yang ditempatkan pada bagian &lt;head&gt; atau &lt;body&gt; tergantung kapan skrip akan dieksekusi. Metode ini cocok digunakan untuk kode dalam jumlah kecil. 
+            <p>Contoh :</p>
+                <p><img src="Screenshot 2025-04-20 195453.png" alt="Gambar 3"></p>
+        </p></li>
+        <li><b>JavaScript Eksternal</b><p>
+            Metode ini menghubungkan file .js secara terpisah menggunakan tag &lt;script&gt; dengan atribut src. Atribut src menentukan jalur ke file JavaScript eksternal. Metode ini sering dipakai untuk proyek yang lebih besar karena meningkatkan organisasi dan penggunaan kembalikode yang lebih baik. Tag &lt;script&gt; untuk file eksternal biasanya ditempatkan pada akhir &lt;body&gt; atau dapat menggunakan async atau defer untuk mengontrol pemuatan dan eksekusi skrip.
+            <p>Contoh :</p>
+                <p><img src="Screenshot 2025-04-20 195926.png" alt="Gambar 4"></p>
+        </p></li>
+        <li><b>JavaScript Inline</b><p>
+            Metode ini menggunakan atribut event handler (misalnya onclick, onmouseover) langsung di dalam elemen HTML untuk mengeksekusi kode JavaScript. Metode ini umumnya tidak disarankan karena pemeliharaan dan pemisahan tanggung jawab yang buruk. 
+            <p>Contoh :</p>
+            <p>&lt;button onclick="console.log('Tombol dihover!')"&gt;Hover Saya&lt;/button&gt;</p>
+        </p></li>
+    </ul>
+</body>
+</html>

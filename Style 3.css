@@ -1,0 +1,37 @@
+body{
+    background-color: rgb(84, 208, 224);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    color: floralwhite;
+    padding: 1rem;
+    text-align: center;
+}
+
+h3 {
+    font-size: 20pt;
+    text-align: center;
+}
+
+h4 {
+    font-size: 17pt;
+}
+
+p {
+    font-size: 17pt;
+}
+
+ul {
+    font-size: 17pt;
+}
+
+li {
+    font-size: 17pt;
+}
+
+img {
+    max-width: 30%;
+    height: auto;
+}

@@ -1,0 +1,23 @@
+body{
+    background-color: rgb(84, 208, 224);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1, h2 {
+    font-weight: bold;
+    font-size: 32pt;
+    text-align: center;
+}
+.content {
+    display: none; 
+    margin: 20px;
+}
+
+p {
+    font-size: 14pt;
+}
+
+a {
+    color: white;
+}
